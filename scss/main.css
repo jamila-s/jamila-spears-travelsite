@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 1280px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 1280px;
+}
+
+.nav-bar {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  color: #335576;
+  display: inline-flex;
+  width: 100%;
+  padding: 20px 10px 20px 0px;
+  position: fixed;
+  top: 0;
+}
+.nav-bar a {
+  display: inline-flex;
+  margin-right: auto;
+  color: #335576;
+  padding: 0px 20px;
+}
+.nav-bar a:active {
+  -webkit-text-decoration: underline #DB7A4E;
+          text-decoration: underline #DB7A4E;
+}
+.nav-bar h3 {
+  color: #335576;
+  padding-left: 130px;
+}
+.nav-bar li {
+  display: inline-flex;
+  color: #335576;
+  padding: 0px 20px;
+}
+
+footer {
+  display: flex;
+  background-color: #FEFAF5;
+  width: 100%;
+  padding: 30px 60px;
+  justify-content: space-evenly;
+}
+footer h3 {
+  color: #335576;
+}
+footer p {
+  color: #335576;
+}
+footer .contact--subtitle {
+  color: #DB7A4E;
+  font-size: 12px;
+  padding: 14px 0px;
+}
+footer .contact h3 {
+  padding-top: 2px;
+}
+footer .contact p {
+  font-size: 14px;
+}
+footer .hours h3 {
+  padding-left: 30px;
+}
+footer .hours--subtitle {
+  color: #DB7A4E;
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+footer .hours--container {
+  display: flex;
+}
+footer .hours--container-card {
+  padding: 15px 30px;
+  font-size: 14px;
+}
+
+.socials h3 {
+  padding-left: 20px;
+}
+.socials img {
+  width: 20px;
+  padding: 15px 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  -webkit-text-decoration: underline #DB7A4E;
+          text-decoration: underline #DB7A4E;
+}
+
+a:hover {
+  -webkit-text-decoration: underline #DB7A4E 3px solid;
+          text-decoration: underline #DB7A4E 3px solid;
+}
+
+.travel-intro {
+  color: #335576;
+  margin-top: 100px;
+}
+.travel-intro--container {
+  background-color: #FEFAF5;
+  display: flex;
+  width: 100%;
+  padding: 30px 70px 20px 65px;
+}
+.travel-intro--description {
+  width: 50%;
+  margin-right: 20%;
+  margin-left: 5%;
+}
+.travel-intro--description p {
+  padding: 20px 0;
+}
+.travel-intro--description button {
+  background-color: #DB7A4E;
+  color: #FFFFFF;
+  border: #FFFFFF 1px solid;
+  width: 150px;
+  height: 40px;
+  border-radius: 90px/90px;
+}
+.travel-intro--hero {
+  width: 30%;
+  padding-right: 40px;
+}
+.travel-intro--hero img {
+  width: 50vh;
+  height: 40vh;
+}
+
+.recommendations {
+  width: 100%;
+  margin: 40px 80px;
+}
+.recommendations h2 {
+  text-align: left;
+  color: #335576;
+}
+.recommendations--container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.recommendations img {
+  width: 30vh;
+  height: 45vh;
+}
+.recommendations--card {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 4px black;
+}
+.recommendations--word {
+  position: absolute;
+  color: white;
+  opacity: 80%;
+  bottom: 10px;
+  right: 30px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  -webkit-text-decoration: underline #DB7A4E;
+          text-decoration: underline #DB7A4E;
+}
+
+a:hover {
+  -webkit-text-decoration: underline #DB7A4E 3px solid;
+          text-decoration: underline #DB7A4E 3px solid;
+}/*# sourceMappingURL=main.css.map */
