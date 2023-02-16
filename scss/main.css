@@ -1,45 +1,46 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-  width: 1280px;
+  max-width: initial;
 }
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 1280px;
+  margin: 0 auto;
 }
 
 .nav-bar {
+  position: fixed;
   overflow: hidden;
   background-color: #FFFFFF;
-  color: #335576;
-  display: inline-flex;
   width: 100%;
-  padding: 20px 10px 20px 0px;
-  position: fixed;
   top: 0;
+  display: inline-flex;
+  padding: 30px 130px;
+  z-index: 50;
+}
+.nav-bar ul {
+  display: flex;
+  margin-left: auto;
 }
 .nav-bar a {
-  display: inline-flex;
-  margin-right: auto;
   color: #335576;
-  padding: 0px 20px;
 }
-.nav-bar a:active {
-  -webkit-text-decoration: underline #DB7A4E;
-          text-decoration: underline #DB7A4E;
+.nav-bar li a:active {
+  -webkit-text-decoration: underline solid #DB7A4E 1px;
+          text-decoration: underline solid #DB7A4E 1px;
 }
 .nav-bar h3 {
   color: #335576;
-  padding-left: 130px;
 }
-.nav-bar li {
-  display: inline-flex;
-  color: #335576;
-  padding: 0px 20px;
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1em;
 }
 
 footer {
@@ -81,11 +82,10 @@ footer .hours--container-card {
   padding: 15px 30px;
   font-size: 14px;
 }
-
-.socials h3 {
+footer .socials h3 {
   padding-left: 20px;
 }
-.socials img {
+footer .socials img {
   width: 20px;
   padding: 15px 20px;
 }
@@ -111,7 +111,10 @@ a:hover {
 
 .travel-intro {
   color: #335576;
+  margin: 0 auto;
   margin-top: 100px;
+  width: 100%;
+  display: flex;
 }
 .travel-intro--container {
   background-color: #FEFAF5;
@@ -179,6 +182,7 @@ a:hover {
 
 a:link {
   text-decoration: none;
+  color: black;
 }
 
 a:visited {
@@ -187,11 +191,72 @@ a:visited {
 }
 
 a:active {
-  -webkit-text-decoration: underline #DB7A4E;
-          text-decoration: underline #DB7A4E;
+  -webkit-text-decoration: underline #DB7A4E 1px;
+          text-decoration: underline #DB7A4E 1px;
 }
 
 a:hover {
   -webkit-text-decoration: underline #DB7A4E 3px solid;
           text-decoration: underline #DB7A4E 3px solid;
+}
+
+.hawaii {
+  background-image: url("../assets/Images/hawaii.jpg");
+  width: 100%;
+  height: 170vh;
+  margin-top: -500px;
+  position: relative;
+}
+.hawaii h1 {
+  color: white;
+  font-size: 5rem;
+  padding: 650px 130px;
+}
+
+.hawaii-schedule {
+  width: 100%;
+  position: relative;
+}
+.hawaii-schedule--container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  bottom: 100px;
+}
+.hawaii-schedule--card {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 4px black;
+  background-color: white;
+  height: 50vh;
+  width: 35vh;
+  margin: 30px 50px;
+}
+.hawaii-schedule--card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+.hawaii-schedule--word {
+  display: flex;
+}
+.hawaii-schedule--word h3 {
+  color: #000000;
+  opacity: 80%;
+  margin: -20px auto;
+}
+.hawaii-schedule--list {
+  width: 100%;
+}
+.hawaii-schedule li {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #FEFAF5;
+  padding: 15px 0;
 }/*# sourceMappingURL=main.css.map */
