@@ -1,0 +1,35 @@
+.nav{
+
+    &-bar{
+        position: fixed;
+        overflow: hidden;
+        background-color: #FFFFFF;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 90px;
+        z-index: 50;
+        top: 0;
+    
+        p{
+            color: #335576;
+            font-weight: 600;
+            font-size: 1.5rem;
+        
+        }
+       
+    }
+    
+    &-links{
+        list-style: none;
+        display: flex;
+    
+        a{
+            display: inline-flex;
+            justify-content: space-between;
+            padding: 0px 20px;
+        
+    }
+}
+}

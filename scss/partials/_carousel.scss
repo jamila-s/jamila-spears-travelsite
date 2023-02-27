@@ -1,0 +1,34 @@
+
+.carousel{
+    
+
+        &--greece {
+        background-image: url('../../assets/Images/greece.jpg');
+        background-size: cover;
+         height: 155vh;
+        margin-top: -450px;
+        }
+
+        &--iceland{
+        background-image: url('../../assets/Images/iceland.jpg');
+         background-size: cover;
+         height: 155vh;
+        margin-top: -450px;
+        }
+
+        &--hawaii{
+            background-image: url('../../assets/Images/hawaii.jpg');
+            background-size: cover;
+            width: 100%;
+             height: 155vh;
+            margin-top: -450px;
+            }
+
+        &--title {
+            color: white;
+            font-size: 3rem;
+            margin-top: 4%;
+            padding: 60vh 13vh 60vh 10vh;
+}
+
+}  

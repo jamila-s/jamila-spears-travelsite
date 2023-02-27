@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="stylesheet" href="./scss/styles.css">
     <title>Travel Site</title>
 </head>
 <body>
     <header>
         <nav class = "nav-bar">
             <div class="logo">
-            <a href="./index.html"><h3>Travel Site</h3></a>
+            <a href="./index.html"><p>Travel Site</p></a>
             </div>
-            <ul class="nav-links">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./pages/hawaii.html">Hawaii</a></li>
-                <li><a href="./pages/iceland.html">Iceland</a></li>
-                <li><a href="./pages/greece.html">Greece</a></li>
-            </ul>
+            <div class="nav-links">
+                <a href="./index.html">Home</a>
+                <a href="./pages/hawaii.html">Hawaii</a>
+                <a href="./pages/iceland.html">Iceland</a>
+                <a href="./pages/greece.html">Greece</a>
+            </div>
         </nav>
     </header>
 
@@ -40,55 +40,74 @@
     <section class="recommendations">
         <h2>Recommendations</h2>
         <div class="recommendations--container">
+
+            <!-- Hawaii Recommendation Card -->
+            <a href="./pages/hawaii.html">
             <div class="recommendations--card">
                 <img src="./assets/Images/hawaii.jpg" alt="hawaii">
-                <div class="recommendations--word">
-                    <h3>Hawaii</h3>
-                    </div>
-                </div>
-                <div class="recommendations--card">
-            <img src="./assets/Images/iceland.jpg" alt="iceland">
+            <div class="recommendations--word">
+                <h3>Hawaii</h3>
+            </div>
+            </div>
+            </a>
+
+            <!-- Iceland Recommendation Card -->
+            <a href="./pages/iceland.html">
+            <div class="recommendations--card">
+                <img src="./assets/Images/iceland.jpg" alt="iceland">
             <div class="recommendations--word">
                 <h3>Iceland</h3>
             </div>
             </div>
+            </a>
+
+            <!-- Greece Recommendation Card -->
+            <a href="./pages/greece.html">
             <div class="recommendations--card">
-            <img src="./assets/Images/greece.jpg" alt="greece">
-            
+                <img src="./assets/Images/greece.jpg" alt="greece">
             <div class="recommendations--word">
                 <h3>Greece</h3>
             </div>
             </div>
+            </a>
         </div>
     </section>
+
+    <!-- Footer Section -->
     <footer>
+
+        <!-- Contact Section -->
         <article class="contact">
             <h3>Contact</h3>
-            <p class="contact--subtitle">Email</p>
-            <p>info@travelsite.com</p>
+                <p class="contact--subtitle">Email</p>
+                <p>info@travelsite.com</p>
         </article>
+
+        <!-- Hours Section -->
         <article class="hours">
             <h3>Hours</h3>
-            <div class="hours--container">
-                <div class="hours--container-card">
-            <p class="hours--subtitle">Monday - Friday</p>
-            <p>9:00 AM - 5:00 PM</p>
-            </div>
-            <div class="hours--container-card">
-            <p class="hours--subtitle">Saturday</p>
-            <p>10:00 AM - 4:00 PM</p>
-            </div>
-            <div class="hours--container-card">
-            <p class="hours--subtitle">Sunday</p>
-            <p>Closed</p>
-            </div>
-        </div>
+                <div class="hours--container">
+                    <div class="hours--container-card">
+                        <p class="hours--subtitle">Monday - Friday</p>
+                        <p>9:00 AM - 5:00 PM</p>
+                    </div>
+                    <div class="hours--container-card">
+                        <p class="hours--subtitle">Saturday</p>
+                        <p>10:00 AM - 4:00 PM</p>
+                    </div>
+                    <div class="hours--container-card">
+                        <p class="hours--subtitle">Sunday</p>
+                        <p>Closed</p>
+                    </div>
+                </div>
         </article>
+
+        <!-- Social Media Section -->
         <article class="socials">
             <h3>Social</h3>
-            <a href="https://instagram.com" target="_blank"><img src="./assets/Icons/icon-instagram.png" alt="yelp"></a>
-            <a href="https://facebook.com" target="_blank"> <img src="./assets/Icons/icon-facebook.png" alt="facebook"></a>
-            <a href="https://twitter.com" target="_blank"><img src="./assets/Icons/icon-twitter.png" alt="instagram"></a>
+                <a href="https://instagram.com" target="_blank"><img src="../assets/Icons/icon-instagram.png" alt="instagram"></a>
+                <a href="https://facebook.com" target="_blank"> <img src="../assets/Icons/icon-facebook.png" alt="facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="../assets/Icons/icon-twitter.png" alt="twitter"></a>
         </article>
     </footer>
     

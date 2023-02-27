@@ -1,0 +1,66 @@
+footer{
+    display: flex;
+    background-color: #FEFAF5;
+    width: 100%;
+    padding: 30px 60px;
+    justify-content: space-evenly;
+
+    h3{
+        color: #335576;
+    }
+
+    p{
+        color: #335576;
+    }
+
+    .contact{
+        
+        &--subtitle{
+            color: #DB7A4E;
+            font-size: 12px;
+            padding: 14px 0px;
+        }
+        h3{
+            padding-top: 2px
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+
+    .hours{
+
+        h3{
+            padding-left: 30px;
+        }
+        
+        &--subtitle{
+            color: #DB7A4E;
+            font-size: 12px;
+            padding-bottom: 15px;
+            
+        }
+        &--container{
+            display: flex;
+
+            &-card{
+                padding: 15px 30px;
+                font-size: 14px;
+            }
+         }
+        }
+    
+
+    .socials{
+        
+        h3{
+            padding-left: 3px;
+        }
+
+        img{
+            width: 1.5rem;
+            padding: 10px 0px;
+            margin: 0px 15px ;
+        }
+    }
+}

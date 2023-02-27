@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    max-width: initial;
+    
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0 auto;
+}
+
+a:link{
+        text-decoration: none;
+    }
+a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+a:hover{
+        text-decoration: underline #DB7A4E 3px solid;
+}
+
+a:active {
+    text-decoration: underline #DB7A4E;
+}
